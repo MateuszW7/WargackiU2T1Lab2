@@ -44,4 +44,10 @@ public class ChatBot {
     public String goodbye() {
         return "It was nice talking with you! Have a great day! Sincerely, " + name;
     }
+
+    // method that asks the user about their pet and tells the user about a pet mouse
+    public void pets(String petName) {System.out.println(petName + " sounds like a cutie! I had a pet mouse named M0US3 once.");}
+
+    //method that averages 3 numbers
+    public int averageNumbers(int num1, int num2, int num3){ return (int)((num1 + num2 + num3)/3);}
 }
